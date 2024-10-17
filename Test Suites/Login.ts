@@ -22,7 +22,7 @@
       <guid>6497c309-064d-46f2-9a7b-0450c43b1805</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login page/Login invalid username</testCaseId>
+      <testCaseId>Test Cases/Login page/Menu Employee</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
