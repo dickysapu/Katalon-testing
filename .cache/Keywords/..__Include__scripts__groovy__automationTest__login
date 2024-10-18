@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "2A4A596CC08D815AB132A9D74FA2C907",
+  "keywordClasses": [
+    {
+      "name": "automationTest.login",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
