@@ -21,15 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('opensource-demo.orangehrmlive.com')
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_username'), 'Admin')
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_username'), 'invalid')
 
-WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_password'), '/5S6MFFLcE4mlsixtc6/Tg==')
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
 
 WebUI.delay(5)
 
-WebUI.findWebElement(findTestObject('Page_OrangeHRM/h6_Dashboard'))
+WebUI.findWebElement(findTestObject('Page_OrangeHRM/p_Invalid credentials'))
 
 WebUI.delay(3)
 
